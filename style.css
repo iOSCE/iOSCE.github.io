@@ -18,7 +18,7 @@
 
 body {font-family: Verdana, Verdana; font-size: 12pt; }
 
-table { table-layout: auto; border-collapse: collapse; width: 400px; font-family: Verdana, Verdana; }
+table { table-layout: fixed; border-collapse: collapse; width: 400px; font-family: Verdana, Verdana; }
 td { border: 5px solid #000; font-family: Verdana, Verdana; font-size: 12pt; }
 
 h1 {font-family: Hagin, Verdana; font-size: 22pt; font-weight: bold;  color: #003366}
