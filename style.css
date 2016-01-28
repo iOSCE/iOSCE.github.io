@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: Hagin;
+	src: url(fonts/Hagin-Caps-Medium.otf);
+}
+@font-face {
+    font-family: Forum;
+	src: url(fonts/Forum-Regular.ttf);
+}
+@font-face {
+	font-family: Lobster;
+	src: url(fonts/Lobster-Regular.ttf);
+}
+@font-face {
+	font-family: PTSans;
+	src: url(fonts/PTS55F.ttf);
+}
+
+body {font-family: Verdana, Verdana; font-size: 12pt; }
+
+table { table-layout: auto; border-collapse: collapse; width: 400px; font-family: Verdana, Verdana; }
+td { border: 5px solid #000; font-family: Verdana, Verdana; font-size: 12pt; }
+
+h1 {font-family: Hagin, Verdana; font-size: 22pt; font-weight: bold;  color: #003366}
+h2 {font-family: Hagin, Lobster; font-size: 18pt; font-weight: normal; color: #000000; margin: 14px}
+h3 {font-family: Hagin, Lobster; font-size: 16pt; font-weight: normal; color: #000000; margin: 12px}
+dfn {font-family: Hagin;}
+
+
+
+a:link {font-family: PTSans; color: #003366; text-decoration: none; font-weight: bold; font-size: 12pt}
+a:visited {font-family: PTSans; color: #003366;  font-weight: bold; text-decoration: none;}
+a:hover {font-family: PTSans; color: #336699; text-decoration: none; font-weight: bold;}
+
+a.classbar {font-size: 12pt}
+
+p { margin: 5px; text-indent: 20px;}
+p.classb { text-indent: 0px; margin-left: 15px}
+p.classbar { text-indent: 0px; margin-left: 10px; margin-bottom: 0px;color: #000000;font-family: Lobster, Verdana; font-size: 14pt; text-decoration: underline;}
+p.classf { text-indent: 0px; margin: 10px; font-size: 14px;}
+p.classh { text-indent: 0px; color: #000000;font-size: 18pt}
+p.classborder { text-indent: 0px; border: double 4px #339933; font-size:16pt; font-weight: bold}
+p.classs { text-indent: 0px; margin: 5px; margin-top: 3px;}
+p.classtopic { text-indent: 0px; margin: 5px; margin-bottom: 0px; font-family: Lobster, Verdana; font-size: 14pt; font-weight: lighter; color: #339933; text-decoration: underline; }
+
+.block1 { height: 60px; padding: 10px;}
+
+#primer {height:500px;width:auto; margin:10px; border: 1px solid gray; overflow : auto;}
+#bar {height:auto;width:auto; margin-left:10px; overflow : auto;}
+#bar2 {height:240px;width:245px; margin-left:10px; border: 1px solid gray; overflow : scroll;}
