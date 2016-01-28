@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<title>My site</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<h1>Задание 3</h1>
+	<hr/>
+	<h2>Формы</h2>
+	
+	<form name="test" action="input1.php">
+		<p>Name</p>
+		<p><input autofocus type="text" name="name"><p/>
+		<p>Email</p>
+		<p><input type="text" name="email"></p>
+		
+		<br/>
+		<p>Sex</p>
+		<p><input type="radio" name="sex" value="male">Male</input></p>
+		<p><input type="radio" name="sex" value="female">Female</input></p>
+		
+		<br/>
+		<p>Current status</p>
+		<p><input type="checkbox" name="status" value="student">Student</input></p>
+		<p><input type="checkbox" name="status" value="employed">Employed</input></p>
+		<p><input type="checkbox" name="status" value="unemployed">Unemployed</input></p>
+		
+		<br/>
+		<p>Month and Year of birth</p>
+		<p>
+		<select name="month"/>
+			<option value="jan">Январь</option>
+			<option value="feb">Февраль</option>
+			<option value="mar">Март</option>
+		</select>
+		<select name="year">
+			<option value="1990">1990</option>
+			<option value="2000">2000</option>
+			<option value="2001">2001</option>
+		</select>
+		</p>
+		
+		<br/>
+		<p>Skills and Technologies</p>
+		<p>
+		<select multiple size="10" name="technologies">
+			<optgroup label="Tech skills">
+				<option value="html">HTML</option>
+				<option value="css">CSS</option>
+				<option value="js">JavaScript</option>
+				<option value="git">git</option>
+			</optgroup>
+			<optgroup label="Soft skills">
+				<option value="time_manag">Time management</option>
+				<option value="proactivity">Proactivity</option>
+				<option value="teamwork">Teamwork</option>
+				<option value="leadership">Leadership</option>
+			</optgroup>
+		</select>
+		</p>
+		
+		<br/>
+		<p>Photo</p>
+		<p><input type="file"></input></p>
+		
+		<br/>
+		<p>Comments</p>
+		<p><textarea rows="5" cols="20" name="comment"></textarea></p>
+		
+		<br/>
+		<p><input type="submit" value="Save"></input></p>
+	</form>
+	
+</body>
+
+</html>
