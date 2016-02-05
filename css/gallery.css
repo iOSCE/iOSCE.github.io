@@ -1,85 +1,73 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #f1f1f1;
+	background-color: LightGray;
 	font-family: sans-serif;
-	
 }
-
-div{
+div {
 	box-sizing: border-box;
 }
-
-a{
+a {
 	text-decoration: none;
 	outline: 0;
 	color: #e4551d;
 }
-
 a:active,
 a:hover {
 	text-decoration: underline;
 	outline: 0;
 }
-
-.more::before{
-	content: "+"
+.more {
+	font-size: 0.8em;
 }
-
-.holder{
-	background-color: white;
+.more::after {
+	content: ">>"
+}
+.holder {
 	width: 960px;
 	margin: 0 auto;
-	padding: 87px 30px;
+	padding: 86px 30px;
+	background-color: white;
 }
-
-.testimonial_section {
-	font-variant: small-caps;
-	font-family: Courier, sans-serif;
-	padding: 10px 30px;
-}
-
 .testimonial {
-	vertical-align: top;
     position: relative;
+	margin: 77px 0;
+	vertical-align: top;
 }
-
 .testimonial_item {
     position: relative;
 	display: inline-block;
     width: 50%;
     min-height: 85px;
+	margin-bottom: 57px;
     white-space: normal;
-	margin: 0 0 30px 0;
-    vertical-align: top;
+	vertical-align: top;
 }
-
-.testimonial_inner
-{
-    margin: 0 15px 0 0;
+.testimonial_inner {
     position: relative;
+	margin: 0;
     vertical-align: top;
 }
-
-.testimonial_item:nth-child(even) .testimonial_inner{
-    margin: 0 0 0 15px;
+.testimonial_item:nth-child(even) .testimonial_inner {
+    margin-left: 20px;
+	
 }
-
+.testimonial_item:nth-child(odd) .testimonial_inner {
+    margin-right: 20px;
+}
 .testimonial_image {
 	position: absolute;
 	top: 0;
 	left: 0;
 	border-radius: 5px;
 }
-
 .testimonial_title {
-	margin: 0 0 5px 115px;
+	margin: 0 0 5px 110px;
 	font-size: 22px;
 	color: #637f83;
 }
-
 .testimonial_text {
-	margin: 0 0 0 115px;
+	margin: 0 0 0 110px;
 	font-size: 14;
 	color: #959595;
 	line-height: 1.5em;
