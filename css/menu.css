@@ -4,15 +4,17 @@
 }
 
 header {
-	position: static;
-	background-color: SlateBlue;
+	position: fixed;
 	width: 100%;
-	margin: 0 auto 0 auto;
+	height: 87px;
+	margin: 0;
+	z-index: 1;
+	background-color: SlateBlue;
 }
 nav {
 	position: relative;
 	width: 990px;
-	margin: 90px auto 0 auto;
+	margin: 40px auto;
 	box-sizing:border-box;
 }
 ul.menu {
