@@ -1,0 +1,79 @@
+@font-face {
+	font-family:"shell-icons";
+	src:url("../fonts/shell-icons-0.4.0.ttf");
+}
+
+header {
+	position: static;
+	background-color: SlateBlue;
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+nav {
+	position: relative;
+	width: 990px;
+	margin: 90px auto 0 auto;
+	box-sizing:border-box;
+}
+ul.menu {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+ul.menu li {
+	display: inline-block;
+	padding: 0.5em 1em 0.5em 1em;
+	
+}
+header li:hover{
+	text-shadow: none;
+	background: Silver;
+}
+li.more_menu {
+	float: right;
+}
+.menu_link,
+.menu_link:active,
+.menu_link:hover {
+	text-decoration: none;
+	outline: 0;
+	color: white;
+	font-family: Impact;
+	font-size: 18pt;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px black;
+}
+.submenu {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	width: 100%;
+	background: Silver;
+	z-index: 3;
+	transition: all .3s ease-in-out;
+	transform: scaleY(0);
+	transform-origin:0 0;
+}
+
+.menu li:hover .submenu {
+	opacity: 1;
+	transform: scaleY(1);
+}
+i.shell-icon::before {
+	content: " ";
+    display: inline-block;
+	margin-left: 0.5em;
+	margin-right: 0;
+	vertical-align: middle;
+    -width: 1em;
+    -height: 1em;
+	font-size: 0.5em;
+    font-family: shell-icons;
+    font-style: normal;
+    font-weight: normal;
+    -line-height: 1.1;
+}
