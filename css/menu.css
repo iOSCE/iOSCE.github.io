@@ -9,11 +9,11 @@ header {
 	height: 87px;
 	margin: 0;
 	z-index: 1;
-	background-color: SlateBlue;
+	background-color: DimGray;
 }
-nav {
+.main-nav {
 	position: relative;
-	width: 990px;
+	width: 960px;
 	margin: 40px auto;
 	box-sizing:border-box;
 }

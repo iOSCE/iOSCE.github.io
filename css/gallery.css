@@ -2,6 +2,8 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #f1f1f1;
+	font-family: sans-serif;
+	
 }
 
 div{
@@ -26,21 +28,18 @@ a:hover {
 
 .holder{
 	background-color: white;
-	width: 990px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 87px 30px;
 }
 
 .testimonial_section {
-	color: #336699;
-	text-shadow: 0px 0px 10px rgba(51,102,153,0.6);
 	font-variant: small-caps;
 	font-family: Courier, sans-serif;
-	padding: 0 0 20px 40px;
+	padding: 10px 30px;
 }
 
 .testimonial {
-	font-family: sans-serif;
 	vertical-align: top;
     position: relative;
 }

@@ -1,0 +1,27 @@
+#colophon {
+	position: relative;
+	line-height: 1.3em;
+	width: 100%;
+	background: white;
+	margin: 1em 0 0;
+	font-size: .75rem;
+	padding: 10px 0;
+	color: #666;
+}
+.footer-nav {
+	width: 960px;
+	margin: 0 auto;
+}
+#colophon .col {
+	float: left;
+	width: 300px;
+	margin: 0 10px;
+}
+#colophon .footer-nav::after
+{
+    content: ".";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
